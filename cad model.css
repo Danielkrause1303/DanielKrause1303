@@ -1,0 +1,50 @@
+html {
+	background-color: GainsBoro;
+	font-family: "Courier New";
+	margin-left:12% ;
+	margin-right: 22%;
+}
+
+
+body {
+	margin:0 auto;
+}
+
+h1 {
+	font-size: 3.em;
+}
+
+.mainheader nav {
+	/*
+	Change background later
+	*/
+	background-color: dimgrey;
+	height:40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+}
+
+.mainheader nav ul{
+list-style: none;
+margin:0 auto;
+}
+
+.mainheader nav ul li {
+	float: left;
+	display: inline;
+}
+
+.mainheader nav a {
+	color: #FFF;
+}
+
+.mainheader nav a:link {
+	color: #FFF;
+	display:inline-block;
+	padding:10px 25px;
+	text-decoration: none;
+	}
+.mainheader nav a:hover {
+	background-color: #006600 ;
+}
